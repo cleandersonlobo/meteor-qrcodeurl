@@ -1,0 +1,17 @@
+.btn-large-responsivo{
+  width: 100%;
+}
+.btn-large-responsivo i.right{
+  margin-left: 0px;
+}
+
+#qrscan{
+  width: 200px;
+  height: 200px;
+
+}
+
+#qrscan i {
+  font-size: 6rem;
+  margin-top: 30%;
+}

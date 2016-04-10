@@ -1,0 +1,22 @@
+header{
+  top: 0px;
+  width: 100%;
+  position: fixed;
+  z-index: 1000;
+   overflow: hidden;
+  -webkit-backface-visibility: hidden;
+  -webkit-transition: height 0.3s;
+   -moz-transition: height 0.3s;
+   -ms-transition: height 0.3s;
+   -o-transition: height 0.3s;
+   transition: height 0.3s
+   -webkit-overflow-scrolling:touch
+}
+
+#nav-subtitulo{
+  height: 45px;
+  line-height: 50px;
+  background-color: #EDEDED;
+  border:0px;
+  -webkit-backface-visibility: hidden;
+}

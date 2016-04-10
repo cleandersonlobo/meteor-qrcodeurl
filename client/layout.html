@@ -1,0 +1,20 @@
+
+<template name="layout">
+
+  <header>
+    {{> yield region='nav'}}
+    {{> yield region='navsobre'}}
+  </header>
+  <main>
+    <div class="container bottom-content">
+      {{> yield}}
+    </div>
+  </main>
+
+  <footer class="grey lighten-4 footer-tab">
+
+    {{> yield region='footer'}}
+
+  </footer>
+
+</template>
